@@ -1,0 +1,127 @@
+
+:root {
+  --cinza-medio: #999999; 
+  --amarelo-claro: #64b5f6; 
+  --vermelho-claro: #ef9a9a;
+  --texto: #333;
+  --branco: #ffffff;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--amarelo-claro); 
+  color: var(--texto);
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background: var(--cinza-medio); 
+  padding: 20px;
+  text-align: center;
+  color: var(--branco);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--branco);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--vermelho-claro);
+}
+
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid var(--cinza-medio); 
+}
+
+
+.habilidades ul {
+  list-style: none;
+  padding: 0;
+}
+
+.habilidades li {
+  background: var(--branco);
+  margin: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  display: inline-block;
+  border-left: 6px solid var(--vermelho-claro);
+}
+
+
+.projeto {
+  background: var(--branco);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  border-top: 6px solid var(--cinza-medio); 
+}
+
+.projeto button {
+  background: var(--vermelho-claro);
+  color: var(--texto);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.projeto button:hover {
+  background: var(--cinza-medio); 
+  color: var(--branco);
+}
+
+
+.contato {
+  background: var(--branco);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  border-left: 6px solid var(--cinza-medio); 
+}
+
+
+footer {
+  background: var(--vermelho-claro);
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  color: var(--texto);
+  font-weight: bold;
+}
